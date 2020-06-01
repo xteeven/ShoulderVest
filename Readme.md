@@ -1,10 +1,11 @@
 # Instructions
 
 Base repository for the Shoulder Vest prototype. This prototype is designed to be ligthweigth, ergonomic and provide a high autonomy. 
-It features a ESP32 processor, a LI-Po battery and four coin actuators
+It features a ESP32 processor, a LI-Po battery and four coin actuators.  
+This repository includes the firmware of the processor (00_ShoulderVest_Server) and an example code for communicating from python. The device implements the protocol Bluetooth Low Energy, for more information refer to [this tutorial](https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-ide)
 
-![](Shoulder.svg =250x)
-![](ShoulderVest.svg =250x)
+![](Shoulder.svg)
+![](ShoulderVest.svg)
 
 ## Usage
 
