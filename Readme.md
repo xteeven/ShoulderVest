@@ -3,8 +3,8 @@
 Base repository for the Shoulder Vest prototype. This prototype is designed to be ligthweigth, ergonomic and provide a high autonomy. 
 It features a ESP32 processor, a LI-Po battery and four coin actuators
 
-![](Shoulder.svg)
-![](ShoulderVest.svg)
+![](Shoulder.svg =250x)
+![](ShoulderVest.svg =250x)
 
 ## Usage
 
@@ -95,6 +95,6 @@ After we finish the comunication we have to stop the adapter so other apps can u
 
 ``` python
 adapter.stop()
-``
+```
 
-# %%
+See full example at *Communication.py*
